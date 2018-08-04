@@ -27,9 +27,13 @@ Mongoose - http://mongoosejs.com
 
 ### Embed Youtube Video
 https://www.youtube.com/watch?v=gP-hx9qPZiU
+
 https://www.youtube.com/watch?v=tDTJo-9VfwM
+
 https://www.youtube.com/watch?v=shtRXgefI9U
+
 https://www.youtube.com/watch?v=jfkPj-2KkSM
+
 
 ### Google Map
 ```js
@@ -108,9 +112,13 @@ function login() {
 ### Public APIs
 
 https://s3-ap-southeast-1.amazonaws.com/historical-resource-archive/2018/05/16/http%253A%252F%252Fwww.ha.org.hk%252Fopendata%252Ffacility-hosp.json/0943
+
 https://data.hawaii.gov/api/views/2dr7-mwnn/rows.json?accessType=DOWNLOAD
+
 https://data.opendatasoft.com/explore/dataset/drug-arrests-in-the-us%40public/
+
 https://data.opendatasoft.com/explore/dataset/dash-youth-risk-behavior-surveillance-system-yrbss-middle-school%40public/
+
 https://data.opendatasoft.com/explore/dataset/nchs-drug-poisoning-mortality-by-county-united-states%40public/
 
 
@@ -189,7 +197,7 @@ Error	{
 ### Remove from Favourites List
 ```sh
 URI       https://peakmitweb.herokuapp.com/removefavourlist
-Method	  DELETE
+Method	  POST
 Data	  {
           "id": "5b655adb72bbc300040f720e"
 }
@@ -203,7 +211,7 @@ Error	{
 ### Search a blog
 ```sh
 URI       https://peakmitweb.herokuapp.com/searchblogs
-Method	  GET
+Method	  POST
 Data	  {
           "title": "Opioids"
 }
