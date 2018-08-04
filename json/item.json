@@ -1,0 +1,43 @@
+[
+  {
+    "id":1,
+    "img":"/img/drug/drug1.jpg",
+    "title":"Headshop Drugs",
+    "content":"Also often referred to as 'Legal Highs' are substances which are usually sold via Head Shops."
+  },
+   {
+    "id":2,
+    "img":"/img/drug/drug2.jpg",
+    "title":"2CB",
+    "content":"These can cause subjective changes in perception, thought, emotion and consciousness."
+
+  },
+   {
+    "id":3,
+    "img":"/img/drug/drug3.jpg",
+    "title":"Opioids",
+    "content":"Opioids encompass naturally occurring opium poppy derivatives, such as morphine and codeine."
+
+  },
+   {
+    "id":4,
+    "img":"/img/drug/drug4.jpg",
+    "title":"Counter Painkillers",
+    "content":"Non-opiate based over-the-counter medicines used for mild to moderate pain relief, flu and other symptoms"
+
+  },
+   {
+    "id":5,
+    "img":"/img/drug/drug5.jpg",
+    "title":"Solvents",
+    "content":"When inhaled, solvents have a similar effect to alcohol. They make people feel uninhibited, euphoric and dizzy."
+
+  },
+  {
+    "id":6,
+    "img":"/img/drug/drug6.jpg",
+    "title":"Stimulants",
+    "content":"Are drugs that make people feel more awake, alert and energetic. Cocaine and amphetamines are stimulants."
+
+  }
+]

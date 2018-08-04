@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>DrugTaking</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<!--===============================================================================================-->
+	<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="shop/fonts/themify/themify-icons.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="shop/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="shop/fonts/elegant-font/html-css/style.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="shop/vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="shop/vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="shop/vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="shop/vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="shop/vendor/slick/slick.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="shop/vendor/noui/nouislider.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="shop/css/util.css">
+	<link rel="stylesheet" type="text/css" href="shop/css/main.css">
+<!--===============================================================================================-->
+</head>
+<body class="animsition">
+
+	<!-- Header -->
+	<header class="header1">
+		<!-- Header desktop -->
+		<div class="container-menu-header">
+
+			<div class="wrap_header">
+				<!-- Logo -->
+				<a class="navbar-brand js-scroll-trigger" href="/index">DrugTaking</a>
+
+
+				<!-- Header Icon -->
+				<div class="header-icons">
+					<a href="/logout" class="header-wrapicon1 dis-block">
+						<img src="shop/images/icons/icon-header-01.png" class="header-icon1" alt="ICON"> Logout
+					</a>
+
+					<span class="linedivide1"></span>
+
+					<a href="/favourlist" class="header-wrapicon1 dis-block mr-3 mt-2" style="line-height: 22px;font-size: 22px;">
+						<i class="far fa-heart" aria-hidden="true"></i>
+						<i class="fas fa-heartdis-none" aria-hidden="true"></i>
+					</a>
+
+				</div>
+			</div>
+		</div>
+
+		<!-- Header Mobile -->
+		<div class="wrap_header_mobile">
+			<!-- Logo moblie -->
+			<a href="/index" class="logo-mobile">DrugTaking</a>
+
+			<!-- Button show menu -->
+			<div class="btn-show-menu">
+				<!-- Header Icon mobile -->
+				<div class="header-icons-mobile">
+					<a href="#" class="header-wrapicon1 dis-block">
+						<img src="shop/images/icons/icon-header-01.png" class="header-icon1" alt="ICON">
+					</a>
+
+					<span class="linedivide2"></span>
+
+					<a href="/favourlist" class="header-wrapicon1 dis-block mt-2" style="line-height: 22px;font-size: 22px;">
+						<i class="far fa-heart" aria-hidden="true"></i>
+						<i class="fas fa-heartdis-none" aria-hidden="true"></i>
+					</a>
+
+				</div>
+
+			</div>
+		</div>
+
+
+	</header>
+
+	<!-- Title Page -->
+	<section class="bg-title-page p-t-40 p-b-50 flex-col-c-m" style="background-image: url(img/blog-banner.jpg);">
+		<h2 class="l-text2 t-center">
+			Favorite
+		</h2>
+	</section>
+
+	<!-- breadcrumb -->
+	<div class="bread-crumb bgwhite flex-w p-l-52 p-r-15 p-t-30 p-l-15-sm">
+		<a href="/index" class="s-text16">
+		  Home
+		  <i class="fa fa-angle-right m-l-8 m-r-9" aria-hidden="true"></i>
+		</a>
+
+		<a href="/blog" class="s-text16">
+		  Blog
+		  <i class="fa fa-angle-right m-l-8 m-r-9" aria-hidden="true"></i>
+		</a>
+		<span class="s-text17">
+			Favorite
+		</span>
+	</div>
+
+	<!-- content page -->
+	<section class="bgwhite p-t-60">
+		<div class="container">
+			<div class="row">
+				<div class="col p-b-75">
+					<!-- Blog item -->
+					<div id="blog-box"></div>
+
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+
+	<!-- Footer -->
+	<footer class="bg6 p-t-45 p-b-43 p-l-45 p-r-45">
+
+		<div class="t-center p-l-15 p-r-15">
+			<div class="t-center s-text8 p-t-20">
+				Copyright © DrugTaking 2018 All rights reserved. | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+			</div>
+		</div>
+
+	</footer>
+
+
+
+	<!-- Back to top -->
+	<div class="btn-back-to-top bg0-hov" id="myBtn">
+		<span class="symbol-btn-back-to-top">
+			<i class="fa fa-angle-double-up" aria-hidden="true"></i>
+		</span>
+	</div>
+
+	<!-- Container Selection -->
+	<div id="dropDownSelect1"></div>
+	<div id="dropDownSelect2"></div>
+
+
+
+<!--===============================================================================================-->
+	<script type="text/javascript" src="shop/vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="shop/vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="shop/vendor/bootstrap/js/popper.js"></script>
+	<script type="text/javascript" src="shop/vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="shop/js/main.js"></script>
+
+	<script>
+		$( document ).ready(function() {
+
+			$.ajax({
+				// url: "/json/blogitem.json",
+				url: '/readfavourlist',
+				type: "GET",
+				success: function (result) {
+					var result = JSON.parse(result);
+
+					$.each(result, function(i,res){
+						item = genItem(res);
+						$('#blog-box').append(item);
+					});
+
+				},
+
+				error: function(result){
+							console.log(result);
+						}
+				});
+
+				function genItem(res){
+						var item = $('<div id="item-'+res._id+'" item-id="'+res._id+'" class="item-blog p-b-80">' +
+														'<div class="row" style="border: 1px solid #ddd;">' +
+															'<div class="col-3 p-0">' +
+															  '<a href="/blogdetail?id='+res.id+'" class="item-blog-img pos-relative dis-block hov-img-zoom">' +
+															    '<img src="'+res.img+'" alt="IMG-BLOG">' +
+
+															    '<span class="item-blog-date dis-block flex-c-m pos1 size17 bg4 s-text1">' +
+															      res.date +
+															    '</span>' +
+															  '</a>' +
+															'</div>' +
+
+															'<div class="col-9">' +
+															  '<div class="item-blog-txt p-t-33">' +
+																	'<a href="/blogdetail?id='+res.id+'" class="m-text24">' +
+															    	'<h4 class="title p-b-11">' +
+															        res.title +
+															    	'</h4>' +
+																	'</a>' +
+
+															    '<div class="s-text8 flex-w flex-m p-b-21">' +
+															      '<span>' +
+															        'By Admin' +
+															        '<span class="m-l-3 m-r-6"> |</span>' +
+															      '</span>' +
+
+															      '<span>' +
+															        'Drug taking, Addiction' +
+															        '<span class="m-l-3 m-r-6"> | </span>' +
+															      '</span>' +
+
+															      '<span>' +
+															        '<a fav-id="'+res._id+'" class="rmblogfav header-wrapicon1 dis-block" style="cursor:pointer;line-height: 14px;font-size: 14px;height: 14px;">' +
+																				'<i class="fas fa-trash-alt" aria-hidden="true"></i>' +
+																			'</a>' +
+															      '</span>' +
+															    '</div>' +
+
+															    '<p class="p-b-12">' +
+															      res.content +
+															    '</p>' +
+
+															    '<a href="/blogdetail?id='+res.id+'" class="s-text20">' +
+															      'Continue Reading ' +
+															      '<i class="fas fa-arrow-right"></i>' +
+															    '</a>' +
+															  '</div>' +
+															'</div>' +
+														'</div>' +
+													'</div>'
+											);
+
+
+						item.find('.rmblogfav').click(function(){
+							var item = $(this).closest('.item-blog');
+							var data = {"id": $(this).attr("fav-id")};
+
+						  $.ajax({
+						    //url: 'http://port-9000.305cde-techknowchan205244.codeanyapp.com/addfavourlist',
+						    url: "/removefavourlist",
+						    type: 'POST',
+								data: data,
+						    success: function (favres) {
+						     if(favres == "success"){
+									 item.remove();
+								 }else{
+									 console.log(favres);
+								 }
+						    }
+						  });
+
+						});
+
+						return item;
+				}
+
+		});
+
+	</script>
+
+</body>
+</html>

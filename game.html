@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=780" />
+	<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+	<META HTTP-EQUIV="Expires" CONTENT="-1">
+	<title>DrugTaking</title>
+	<link rel="stylesheet" href="game/css/game.css"/>
+	<link rel="stylesheet" href="game/css/gamepage.css"/>
+	<link rel="stylesheet" href="game/css/custom_alert.css"/>
+</head>
+<style type="text/css">
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color:#FFF;
+	background: url(https://static1.squarespace.com/static/591333c03e00be66b008c70d/t/5a99a17f4192024bf8d409d3/1520017815439/AdobeStock_82197276.jpeg?format=2500w)
+}
+</style>
+<body>
+<!--main-->
+<div style="width:780px; height:100%; overflow:hidden; position:absolute;position: absolute;margin-left: auto;margin-right: auto;left: 0;right: 0;">
+
+
+
+<!--marks panel-->
+<div id="markpanel">
+  <img src="game/images/markpanel.png" style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='game/images/markpanel.png', sizingMethod='scale');" / >
+</div>
+
+
+
+
+
+
+<!-- Animated Card panel -->
+<div id="drugcards">
+	<div id="cardbacka">
+	<a href="#"><img src="game/images/card_back.png" border="0" style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='game/images/card_back.png', sizingMethod='scale');" / ></a>
+	</div>
+
+	<div id="cardbackb">
+	<a href="#"><img src="game/images/card_back.png" border="0" style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='game/images/card_back.png', sizingMethod='scale');" /  ></a>
+	</div>
+
+	<div id="cardbackc">
+	<a href="#"><img src="game/images/card_back.png" border="0" style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='game/images/card_back.png', sizingMethod='scale');" /  ></a>
+	</div>
+
+	<div id="cardbackd">
+	<a href="#"><img src="game/images/card_back.png" border="0" style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='game/images/card_back.png', sizingMethod='scale');" /  ></a>
+	</div>
+
+	<div id="cardbacke">
+	<a href="#"><img src="game/images/card_back.png" border="0" style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='game/images/card_back.png', sizingMethod='scale');" /  ></a>
+	</div>
+
+	<div id="cardbackf">
+	<a href="#"><img src="game/images/card_back.png" border="0" style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='game/images/card_back.png', sizingMethod='scale');" /  ></a>
+	</div>
+
+	<div id="cardbackg">
+	<a href="#"><img src="game/images/card_back.png" border="0" style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='game/images/card_back.png', sizingMethod='scale');" /  ></a>
+	</div>
+
+	<div id="cardbackh">
+	<a href="#"><img src="game/images/card_back.png" border="0" style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='game/images/card_back.png', sizingMethod='scale');" /  ></a>
+	</div>
+
+	<div id="cardbacki">
+	<a href="#"><img src="game/images/card_back.png" border="0" style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='game/images/card_back.png', sizingMethod='scale');" /  ></a>
+	</div>
+
+	<div id="cardbackj">
+	<a href="#"><img src="game/images/card_back.png" border="0" style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='game/images/card_back.png', sizingMethod='scale');" /  ></a>
+	</div>
+
+	<div id="cardbackk">
+	<a href="#"><img src="game/images/card_back.png" border="0" style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='game/images/card_back.png', sizingMethod='scale');" /  ></a>
+	</div>
+
+	<div id="cardbackl">
+	<a href="#"><img src="game/images/card_back.png" border="0" style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='game/images/card_back.png', sizingMethod='scale');" /  ></a>
+	</div>
+</div>
+<div id="cards">
+</div>
+
+
+
+
+
+<!--start now button-->
+<div id="startnowbut">
+    <a href="javascript:void(0);" class="startnowbut">
+    </a>
+</div>
+
+
+
+
+<!--score-->
+<div id="score">
+   <canvas id="scoreCanvas" width="50px" height="34px"> </canvas>
+</div>
+<!--times-->
+<div id="remaintime">
+   <canvas id="timerCanvas" width="50px" height="34px"> </canvas>
+</div>
+
+</div>
+
+</body>
+
+	<script type="text/javascript" src="game/jquery-1.7.2.js"></script>
+	<script type="text/javascript" src="game/scripts/custom_alert.js"></script>
+	<script type="text/javascript" src="game/lib/game.js"></script>
+<script>
+$(document).ready(function(){
+	 $("#gametxt").delay(800).animate({  opacity: 1 }, 1900);
+
+	 $("#startnowbut").delay(2800).fadeIn(1900);
+
+	 $("#cardbacka").delay(400).animate({ top: "-=50px",  opacity: 0.6 }, 900);
+	 $("#cardbackb").delay(600).animate({ top: "-=50px",  opacity: 0.6 }, 900);
+	 $("#cardbackc").delay(800).animate({ top: "-=50px",  opacity: 0.6 }, 900);
+	 $("#cardbackd").delay(800).animate({ top: "-=50px",  opacity: 0.6 }, 900);
+	 $("#cardbacke").delay(1000).animate({ top: "-=50px",  opacity: 0.6 }, 900);
+	 $("#cardbackf").delay(1200).animate({ top: "-=50px",  opacity: 0.6 }, 900);
+	 $("#cardbackg").delay(1200).animate({ top: "-=50px",  opacity: 0.6 }, 900);
+	 $("#cardbackh").delay(1600).animate({ top: "-=50px",  opacity: 0.6 }, 900);
+	 $("#cardbacki").delay(1800).animate({ top: "-=50px",  opacity: 0.6 }, 900);
+	 $("#cardbackj").delay(1800).animate({ top: "-=50px",  opacity: 0.6 }, 900);
+	 $("#cardbackk").delay(2000).animate({ top: "-=50px",  opacity: 0.6 }, 900);
+	 $("#cardbackl").delay(2200).animate({ top: "-=50px",  opacity: 0.6 }, 900);
+	 //$("#cardbacka,#cardbackb,#cardbackc,#cardbackd,#cardbacke,#cardbackf,#cardbackg,#cardbackh,#cardbacki,#cardbackj,#cardbackk,#cardbackl").animate({ top: "-=50px",  opacity: 0.6 }, 900);
+
+
+
+}
+);
+</script>
+<script>
+	$(document).ready(function() {
+		var timer = "timerCanvas";
+		var score = "scoreCanvas";
+		var gameController = new Game(timer,score);
+
+		$('#startnowbut').click(function() {
+	        gameController.start();
+        });
+
+	});
+</script>
+</html>

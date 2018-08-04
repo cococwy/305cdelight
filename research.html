@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>DrugTaking</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<!--===============================================================================================-->
+	<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="shop/fonts/themify/themify-icons.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="shop/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="shop/fonts/elegant-font/html-css/style.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="shop/vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="shop/vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="shop/vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="shop/vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="shop/vendor/slick/slick.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="shop/vendor/noui/nouislider.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="shop/css/util.css">
+	<link rel="stylesheet" type="text/css" href="shop/css/main.css">
+<!--===============================================================================================-->
+</head>
+<body class="animsition">
+
+	<!-- Header -->
+	<header class="header1">
+		<!-- Header desktop -->
+		<div class="container-menu-header">
+
+			<div class="wrap_header">
+				<!-- Logo -->
+				<a class="navbar-brand js-scroll-trigger" href="/index">DrugTaking</a>
+
+
+				<!-- Header Icon -->
+				<div class="header-icons">
+					<a href="/logout" class="header-wrapicon1 dis-block">
+						<img src="shop/images/icons/icon-header-01.png" class="header-icon1" alt="ICON"> Logout
+					</a>
+
+					<span class="linedivide1"></span>
+
+					<a href="/favourlist" class="header-wrapicon1 dis-block mr-3 mt-2" style="line-height: 22px;font-size: 22px;">
+						<i class="far fa-heart" aria-hidden="true"></i>
+						<i class="fas fa-heartdis-none" aria-hidden="true"></i>
+					</a>
+
+				</div>
+			</div>
+		</div>
+
+		<!-- Header Mobile -->
+		<div class="wrap_header_mobile">
+			<!-- Logo moblie -->
+			<a href="/index" class="logo-mobile">DrugTaking</a>
+
+			<!-- Button show menu -->
+			<div class="btn-show-menu">
+				<!-- Header Icon mobile -->
+				<div class="header-icons-mobile">
+					<a href="#" class="header-wrapicon1 dis-block">
+						<img src="shop/images/icons/icon-header-01.png" class="header-icon1" alt="ICON">
+					</a>
+
+					<span class="linedivide2"></span>
+
+					<a href="/favourlist" class="header-wrapicon1 dis-block mt-2" style="line-height: 22px;font-size: 22px;">
+						<i class="far fa-heart" aria-hidden="true"></i>
+						<i class="fas fa-heartdis-none" aria-hidden="true"></i>
+					</a>
+
+				</div>
+
+			</div>
+		</div>
+
+
+	</header>
+
+	<!-- Title Page -->
+	<section class="bg-title-page p-t-40 p-b-50 flex-col-c-m" style="background-image: url(img/blog-banner.jpg);">
+		<h2 class="l-text2 t-center">
+			Research
+		</h2>
+	</section>
+
+	<!-- breadcrumb -->
+	<div class="bread-crumb bgwhite flex-w p-l-52 p-r-15 p-t-30 p-l-15-sm">
+		<a href="/index" class="s-text16">
+		  Home
+		  <i class="fa fa-angle-right m-l-8 m-r-9" aria-hidden="true"></i>
+		</a>
+		<span class="s-text17">
+			Research
+		</span>
+	</div>
+
+
+	<!-- content page -->
+	<section class="bgwhite p-t-60 mb-5">
+		<div class="container">
+			<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+				<li class="nav-item">
+					<a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-ha" role="tab" aria-controls="pills-ha" aria-selected="true">HA</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-drugs" role="tab" aria-controls="pills-drugs" aria-selected="false">Drugs</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-arrests" role="tab" aria-controls="pills-arrests" aria-selected="false">Drug Arrests</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-youthrisk" role="tab" aria-controls="pills-youthrisk" aria-selected="false">Youth Risk</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-nchs" role="tab" aria-controls="pills-nchs" aria-selected="false">NCHS</a>
+				</li>
+			</ul>
+			<div class="tab-content" id="pills-tabContent">
+				<div class="tab-pane fade show active" id="pills-ha" role="tabpanel" aria-labelledby="pills-ha-tab"></div>
+				<div class="tab-pane fade" id="pills-drugs" role="tabpanel" aria-labelledby="pills-drug-tab"></div>
+				<div class="tab-pane fade" id="pills-arrests" role="tabpanel" aria-labelledby="pills-arrests-tab">
+					<p>Drug Arrests in the US</p>
+					<p>Reference:<a href="https://data.opendatasoft.com/explore/dataset/drug-arrests-in-the-us%40public/" target="_blank">https://data.opendatasoft.com/explore/dataset/drug-arrests-in-the-us%40public/</a></p>
+					<iframe src="https://data.opendatasoft.com/explore/embed/dataset/drug-arrests-in-the-us@public/analyze/?dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJsaW5lIiwiZnVuYyI6IkFWRyIsInlBeGlzIjoib3Bpb2lkX3Bvc3Nlc3MiLCJzY2llbnRpZmljRGlzcGxheSI6dHJ1ZSwiY29sb3IiOiIjMkMzRjU2In0seyJ0eXBlIjoibGluZSIsImZ1bmMiOiJBVkciLCJ5QXhpcyI6Im1hcmlqdWFuYV9wb3NzZXNzIiwic2NpZW50aWZpY0Rpc3BsYXkiOnRydWUsImNvbG9yIjoiI0VDNjQzQyJ9LHsidHlwZSI6ImxpbmUiLCJmdW5jIjoiQVZHIiwieUF4aXMiOiJzeW50aGV0aWNfcG9zc2VzcyIsInNjaWVudGlmaWNEaXNwbGF5Ijp0cnVlLCJjb2xvciI6IiNBQkNFRDkifSx7InR5cGUiOiJsaW5lIiwiZnVuYyI6IkFWRyIsInlBeGlzIjoib3RoZXJfcG9zc2VzcyIsInNjaWVudGlmaWNEaXNwbGF5Ijp0cnVlLCJjb2xvciI6IiNEMDUzNTYifV0sInhBeGlzIjoieWVhciIsIm1heHBvaW50cyI6NTAsInNvcnQiOiIiLCJ0aW1lc2NhbGUiOiJ5ZWFyIiwiY29uZmlnIjp7ImRhdGFzZXQiOiJkcnVnLWFycmVzdHMtaW4tdGhlLXVzQHB1YmxpYyIsIm9wdGlvbnMiOnt9fX1dLCJ0aW1lc2NhbGUiOiIiLCJkaXNwbGF5TGVnZW5kIjp0cnVlfQ%3D%3D&static=false&datasetcard=false" width="100%" height="450" frameborder="0"></iframe>
+				</div>
+				<div class="tab-pane fade" id="pills-youthrisk" role="tabpanel" aria-labelledby="pills-youthrisk-tab">
+					<p>DASH - Youth Risk Behavior Surveillance System (YRBSS): Middle School</p>
+					<p>Reference:<a href="https://data.opendatasoft.com/explore/dataset/dash-youth-risk-behavior-surveillance-system-yrbss-middle-school%40public/" target="_blank">https://data.opendatasoft.com/explore/dataset/dash-youth-risk-behavior-surveillance-system-yrbss-middle-school%40public/</a></p>
+					<iframe src="https://data.opendatasoft.com/explore/embed/dataset/dash-youth-risk-behavior-surveillance-system-yrbss-middle-school@public/map/?location=2,29.42217,32.79874&basemap=mapbox.streets&static=false&datasetcard=false&scrollWheelZoom=false" width="100%" height="450" frameborder="0"></iframe>
+				</div>
+				<div class="tab-pane fade" id="pills-nchs" role="tabpanel" aria-labelledby="pills-nchs-tab">
+					<p>NCHS - Drug Poisoning Mortality by County: United States</p>
+					<p>Reference:<a href="https://data.opendatasoft.com/explore/dataset/nchs-drug-poisoning-mortality-by-county-united-states%40public/" target="_blank">https://data.opendatasoft.com/explore/dataset/nchs-drug-poisoning-mortality-by-county-united-states%40public/</a></p>
+					<iframe src="https://data.opendatasoft.com/explore/embed/dataset/nchs-drug-poisoning-mortality-by-county-united-states@public/analyze/?dataChart=eyJxdWVyaWVzIjpbeyJjb25maWciOnsiZGF0YXNldCI6Im5jaHMtZHJ1Zy1wb2lzb25pbmctbW9ydGFsaXR5LWJ5LWNvdW50eS11bml0ZWQtc3RhdGVzQHB1YmxpYyIsIm9wdGlvbnMiOnt9fSwiY2hhcnRzIjpbeyJhbGlnbk1vbnRoIjp0cnVlLCJ0eXBlIjoiY29sdW1uIiwiZnVuYyI6IkFWRyIsInlBeGlzIjoiZmlwc19zdGF0ZSIsInNjaWVudGlmaWNEaXNwbGF5Ijp0cnVlLCJjb2xvciI6IiNGRjUxNUEifV0sInhBeGlzIjoiZmlwc19zdGF0ZSIsIm1heHBvaW50cyI6NTAsInNvcnQiOiIifV0sInRpbWVzY2FsZSI6IiIsImRpc3BsYXlMZWdlbmQiOnRydWUsImFsaWduTW9udGgiOnRydWV9&static=false&datasetcard=false" width="100%" height="450" frameborder="0"></iframe>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- Footer -->
+	<footer class="bg6 p-t-45 p-b-43 p-l-45 p-r-45">
+
+		<div class="t-center p-l-15 p-r-15">
+			<div class="t-center s-text8 p-t-20">
+				Copyright © DrugTaking 2018 All rights reserved. | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+			</div>
+		</div>
+
+	</footer>
+
+
+
+	<!-- Back to top -->
+	<div class="btn-back-to-top bg0-hov" id="myBtn">
+		<span class="symbol-btn-back-to-top">
+			<i class="fa fa-angle-double-up" aria-hidden="true"></i>
+		</span>
+	</div>
+
+	<!-- Container Selection -->
+	<div id="dropDownSelect1"></div>
+	<div id="dropDownSelect2"></div>
+
+
+
+<!--===============================================================================================-->
+	<script type="text/javascript" src="shop/vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="shop/vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="shop/vendor/bootstrap/js/popper.js"></script>
+	<script type="text/javascript" src="shop/vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="shop/js/main.js"></script>
+
+	<script>
+		$( document ).ready(function() {
+
+			var link_ha = "https://s3-ap-southeast-1.amazonaws.com/historical-resource-archive/2018/05/16/http%253A%252F%252Fwww.ha.org.hk%252Fopendata%252Ffacility-hosp.json/0943";
+
+			$.ajax({
+				url: '/apiinform',
+				type: 'POST',
+				data: {'source':link_ha},
+				async: false,
+				contentType: "application/json; charset=utf-8",
+				dataType: "json",
+				success: function (result) {
+					$("#pills-ha").empty();
+					$("#pills-ha").append('<p>List of Hospital Authority Hospitals/Institutions</p>');
+					$("#pills-ha").append('<p>Reference: <a href="'+link_ha+'" target="_blank">'+link_ha+'</a></p>');
+					$("#pills-ha").append('<ul class="list-group">');
+					$.each(result, function(i,res){
+							$("#pills-ha").append('<li class="list-group-item"><p>Address : '+res.address_eng+'</p><p>Cluster : '+res.cluster_eng+'</p><p>Institution : '+res.institution_eng+'</p></li>');
+					});
+					$("#pills-ha").append('</ul>');
+					// console.log(result);
+				},
+
+				error: function(result){
+							console.log('fail', result);
+				}
+			});
+
+
+			var link_drugs = "https://data.hawaii.gov/api/views/2dr7-mwnn/rows.json?accessType=DOWNLOAD";
+			$.ajax({
+				url: '/apiinform',
+				type: 'POST',
+				data: {'source':link_drugs},
+				async: false,
+				contentType: "application/json; charset=utf-8",
+				dataType: "json",
+				success: function (result) {
+					$("#pills-drugs").empty();
+					$("#pills-drugs").append('<p>Name: '+result.meta.view.name+'</p>');
+					$("#pills-drugs").append('<p>Department: '+result.meta.view.attribution+'</p>');
+					$("#pills-drugs").append('<p>Reference: <a href="'+link_drugs+'" target="_blank">'+link_drugs+'</a></p>');
+
+					$("#pills-drugs").append('<ul class="list-group">');
+					$.each(result.data, function(i,res){
+							$("#pills-drugs").append('<li class="list-group-item"><p>Name : '+res[8]+'</p><p>Service : '+res[9]+'</p><p>Address : '+jQuery.parseJSON(res[14][0]).address+'</p></li>');
+					});
+
+					$("#pills-drugs").append('</ul>');
+					// console.log(result);
+				},
+
+				error: function(result){
+					console.log('fail', result);
+				}
+			});
+
+
+
+		});
+
+	</script>
+
+</body>
+</html>

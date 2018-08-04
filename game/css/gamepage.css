@@ -1,0 +1,141 @@
+#drugcards {
+	position: absolute;
+	left:190px;
+	top:125px;
+	width: 393px;
+	height: 574px;
+	z-index:50;
+}
+
+
+
+
+
+
+
+
+#markpanel {
+	position: absolute;
+	width:334px;
+	height:67px;
+	display:block;
+	left:217px;
+	top:32px;
+	opacity:1;
+	-moz-opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+#gametxt {
+	position: absolute;
+	width:492px;
+	height:169px;
+	display:block;
+	left:147px;
+	top:175px;
+	opacity:0;
+	-moz-opacity: 0;
+    filter: alpha(opacity=0);
+}
+#startnowbut {
+	position: absolute;
+	width:316px;
+	height:99px;
+	left:231px;
+	top:350px;
+	z-index:80;
+	display:none;
+}
+
+.startnowbut{
+	width:316px;
+	height:99px;
+	background:url(../images/but_startnow.png);
+	background-repeat:no-repeat;
+	display:block;
+	text-align:center;
+}
+
+.startnowbut:hover{
+	width:316px;
+	height:99px;
+	background:url(../images/but_startnow_o.png);
+	background-repeat:no-repeat;
+	display:block;
+	text-align:center;
+}
+
+#score{
+	position: absolute;
+	left:471px;
+	top:28px;
+	width:50px;
+	height:34px;
+	display:none;
+}
+
+
+#remaintime{
+	position: absolute;
+	left:305px;
+	top:28px;
+	width:50px;
+	height:34px;
+	display:none;
+}
+
+
+#whitewave{
+	position: absolute;
+	left:0px;
+	top:1076px;
+}
+
+
+
+.formtandc{
+	width:74px;
+	height:22px;
+	background:url(../images/form_tandc.gif);
+	background-repeat:no-repeat;
+	display:block;
+	text-align:center;
+}
+
+.formtandc:hover{
+	width:74px;
+	height:22px;
+	background:url(../images/form_tandc_o.gif);
+	background-repeat:no-repeat;
+	display:block;
+	text-align:center;
+}
+
+.form_txt {
+    font-size:13px;
+	color:#595959;
+	font-family:arial,sans-serif;
+	letter-spacing:0px;
+	line-height:18px;
+	background-color:#ffffff;
+	border:solid 1px;
+	border-bottom-color:#c7f0f6;
+	border-top-color:#c7f0f6;
+	border-left-color:#c7f0f6;
+	border-right-color:#c7f0f6;
+	width:335px;
+	height:22px;
+	margin-top:4px;
+	z-index:800;
+}
+
+#cardbacka,#cardbackb,#cardbackc,#cardbackd,#cardbacke,#cardbackf,#cardbackg,#cardbackh,#cardbacki,#cardbackj,#cardbackk,#cardbackl {
+	width: 131px;
+	height: 131px;
+	position: relative;
+	top:50px;
+	float:left;
+	opacity:0;
+	-moz-opacity: 0;
+    filter: alpha(opacity=0);
+}

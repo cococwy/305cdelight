@@ -1,0 +1,115 @@
+#custom_alert_dialog {
+	width:320px;
+	display: none; /* Hidden as default */
+	position: absolute;
+	top: 50%; 
+	left: 50%;
+	z-index: 99999;
+	font-family: Arial,sans-serif,verdana,tahoma,helvetica;
+	font-size: 13px;
+}
+#custom_alert_title
+{
+    font-size: 16px;
+    line-height: 1.75em;
+    padding-left: 1em;
+    background: rgb(130,183,65);
+    color: #ffffff;
+    font-weight: bold;
+}
+#custom_alert_message
+{
+    padding: 1em 1.75em;
+    color: rgb(4,92,6);
+    background: #ffffff;
+}    
+#custom_alert_close
+{
+    border: outset 2px rgb(130,183,65);
+    color: #ffffff;
+    background: rgb(130,183,65);
+    font-weight: bold;
+    margin-bottom: 1em;
+} 
+.custom_alert_btn
+{
+    width:100%;
+    position:relative;
+    float:left;
+    text-align:center;
+    background-color:#ffffff;
+}
+#custom_alert_fade { 
+	display: none; /* Hidden as default */
+	background: #000;
+	position: absolute; left: 0; top: 0;
+	width:780px;
+	-moz-opacity: 0.80;
+    opacity:.80;
+    filter: alpha(opacity=80);
+	z-index: 9999;
+}
+#loader 
+{
+    display: none;
+    position: absolute;
+	top: 50%; 
+	left: 50%;
+	z-index: 99999;
+	color:#ffffff;
+	font-size:20px;
+}
+
+
+#confirm_popup_dialog {
+	width:320px;
+	display: none; /* Hidden as default */
+	position: absolute;
+	top: 50%; 
+	left: 50%;
+	z-index: 99999;
+	font-family: Arial,sans-serif,verdana,tahoma,helvetica;
+	font-size: 13px;
+}
+#confirm_popup_title
+{
+    font-size: 16px;
+    line-height: 1.75em;
+    padding-left: 1em;
+    background: rgb(130,183,65);
+    color: #ffffff;
+    font-weight: bold;
+}
+#confirm_popup_message
+{
+    padding: 1em 1.75em;
+    color: rgb(4,92,6);
+    background: #ffffff;
+    word-wrap: break-word;      /* IE 5.5-7 */
+    white-space: -moz-pre-wrap; /* Firefox 1.0-2.0 */
+    white-space: pre-wrap;      /* current browsers */
+}    
+#confirm_popup_ok
+{
+    border: outset 2px rgb(130,183,65);
+    color: #ffffff;
+    background: rgb(130,183,65);
+    font-weight: bold;
+    margin-bottom: 1em;
+} 
+#confirm_popup_cancel
+{
+    border: outset 2px rgb(130,183,65);
+    color: #ffffff;
+    background: rgb(130,183,65);
+    font-weight: bold;
+    margin-bottom: 1em;
+} 
+.confirm_popup_btn
+{
+    width:100%;
+    position:relative;
+    float:left;
+    text-align:center;
+    background-color:#ffffff;
+}
