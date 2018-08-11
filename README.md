@@ -59,7 +59,6 @@ FB.init({
   xfbml      : true,  // parse social plugins on this page
   version    : 'v2.8' // use graph api version 2.8
 });
-href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fpeakmitweb.herokuapp.com%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
 
 
 function login() {
